@@ -93,7 +93,7 @@ header {
 }
 
 .main-section {
-    background-image: url('src/photo.jpg'); /* Reemplaza 'ruta_de_la_imagen.jpg' con la ruta de tu imagen */
+    background-image: url('photo.jpg'); /* Reemplaza 'ruta_de_la_imagen.jpg' con la ruta de tu imagen */
     background-size: cover; /* Ajusta el tamaño de la imagen para cubrir la sección main */
     background-position: center; /* Centra la imagen en la sección main */
     height: 80vh; /* Opcional: Establece la altura de la sección main al 100% del viewport height */
