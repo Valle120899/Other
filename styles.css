@@ -1,0 +1,100 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.brand h1 {
+    margin: 0;
+    margin-right: 10px; /* Ajusta el margen entre el texto y el botón */
+}
+
+#menu-btn {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff6666;
+}
+
+h1:hover {
+    color: #ff6666;
+}
+
+#start-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin: 0; /* Elimina los márgenes predeterminados */
+    padding: 0; /* Elimina el relleno predeterminado */
+}
+
+
+.blog-image {
+    width: 1em; /* Tamaño igual al tamaño del texto */
+    height: 1em; /* Tamaño igual al tamaño del texto */
+    border-radius: 50%; /* Para hacer la imagen circular */
+    margin-left: 5px; /* Ajustar margen entre el texto y la imagen */
+    vertical-align: middle; /* Alinear verticalmente con el texto */
+}
+
+header {
+    background: linear-gradient(to right, #4CAF50, #2196F3);
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative; /* Asegura que el encabezado tenga un contexto de posición */
+    z-index: 2; /* Asegura que el encabezado esté delante del cuerpo */
+}
+
+.main-section {
+    background-image: url('src/photo.jpg'); /* Reemplaza 'ruta_de_la_imagen.jpg' con la ruta de tu imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir la sección main */
+    background-position: center; /* Centra la imagen en la sección main */
+    height: 80vh; /* Opcional: Establece la altura de la sección main al 100% del viewport height */
+}
